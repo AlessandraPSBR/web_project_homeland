@@ -15,6 +15,6 @@ Este projeto foi desenvolvido durante o bootcamp de desenvolvimento web da Tripl
 
 ## **Contato**
 
-- Site: https://github.com/AlessandraPSBR
+- Site: https://alessandrapsbr.github.io/web_project_homeland/
 - E-mail: alessandrapsbr@hotmail.com
 - LinkedIn: https://www.linkedin.com/in/alessandra-salviano-00031854/
