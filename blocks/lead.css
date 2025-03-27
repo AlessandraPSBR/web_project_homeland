@@ -10,24 +10,25 @@
   font-size: 96px;
   font-weight: 900;
   line-height: 1;
-  margin: 90px auto 0;
+  margin-top: 90px;
+  margin-bottom: 32px;
   max-width: 793px;
   width: 100%;
 }
 
 .lead__subtitle {
-  margin: 32px auto 0;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
   max-width: 720px;
   width: 100%;
+  margin: 0;
 }
 
 .lead__image {
   max-width: 984px;
   width: 100%;
-  margin: 64px auto 0;
+  margin-top: 64px;
   object-fit: cover;
 }
 
@@ -39,7 +40,7 @@
   }
 
   .lead__subtitle {
-    margin: 25px auto 0;
+    margin-top: 25px;
   }
 }
 
@@ -49,6 +50,7 @@
     line-height: 44px;
     margin: 50px 16px 0;
     max-width: 288px;
+    width: 100%;
   }
 
   .lead__subtitle {
