@@ -1,0 +1,13 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 16px;
+  justify-content: center;
+  margin: 118px 48px 0;
+}
+
+.photo-grid__item {
+  height: auto;
+  object-fit: cover;
+}
