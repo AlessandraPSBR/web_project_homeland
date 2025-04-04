@@ -4,10 +4,30 @@
   grid-template-rows: auto;
   gap: 16px;
   justify-content: center;
-  margin: 118px 48px 0;
+  margin: 118px 48px;
 }
 
 .photo-grid__item {
   height: auto;
   object-fit: cover;
+}
+
+@media (max-width: 1100px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 64px;
+  }
+
+  .photo-grid__item {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 544px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+  .photo-grid__item {
+    max-width: 288px;
+  }
 }
