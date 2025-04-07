@@ -1,14 +1,14 @@
 .photo-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  justify-content: center;
   margin: 118px 48px;
 }
 
 .photo-grid__item {
+  width: 100%;
   height: auto;
+  display: block;
   object-fit: cover;
 }
 
@@ -26,8 +26,11 @@
 @media (max-width: 544px) {
   .photo-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+    margin: 32px 16px;
   }
+
   .photo-grid__item {
-    max-width: 288px;
+    max-width: 100%;
   }
 }
